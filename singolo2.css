@@ -1,0 +1,84 @@
+html {
+font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Lato', Verdana, sans-serif;
+}
+/*Portfolio*/
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.portfolio {
+    box-sizing: border-box;
+    background: #2d303a;
+    color: #666d89;
+    border-bottom: 6px solid #323746;
+    height: 870px;
+ }
+ .portfolio_menu{
+     cursor: default;
+ }
+ .portfolio_name {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+  font-weight: 900;
+  font-stretch: ultra-expanded;
+  padding: 60px 0 23px;
+ }
+.portfolio_description{
+    letter-spacing: 0.011em;
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+    margin-bottom: 14px;
+}
+.image_navigations{
+     list-style: none;
+     display: flex;
+     justify-items: start;
+     letter-spacing: -0.02em;
+    font-size: 1.3rem;
+}
+.image_navigation_name {
+    border: 1px solid #666d89;
+    border-radius: 5px 5px;
+    margin-left: 12px;
+    padding: 3px 4px 3px 3px;
+   }
+    
+.image_navigation_name_active {
+    border: 1px solid #dedede;
+    border-radius: 5px 5px;
+    color: #dedede;
+     margin: 0 0 0 -40px;
+     padding: 2px 6px 3px 6px;
+     
+}
+.image_navigation_name:hover {
+    border: 1px solid #dedede;
+    border-radius: 5px 5px;
+    color: #dedede;
+    cursor: pointer;
+}
+
+.portfolio_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -1px;
+  }
+
+.box1{
+    padding-top: 6px;
+    padding-bottom: 15px;
+    width: 220px;
+    height: 186px;
+  }
+
+/*About Us*/
+
