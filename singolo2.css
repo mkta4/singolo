@@ -81,4 +81,105 @@ body {
   }
 
 /*About Us*/
+.about_us {
+    box-sizing: border-box;
+    color: #666d89;
+    background: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    height: 730px;
+}
+.about_us_main {
+    padding-bottom: 29px;
+}
+.about_us_title{
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.04rem;
+    font-weight: 900;
+    padding: 60px 0 19px;
+    }
 
+.about_us_description{
+    letter-spacing: 0.037rem;
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-bottom: 14px;
+    width: 101%;
+    line-height: 30px;
+}
+.about_us_description span{
+    letter-spacing: 0.02rem;
+}
+.about_us_photo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.photo_user {
+    margin: 0px 19px 0px 0px;
+}
+.photo_user img {
+height: 300px;
+width: 300px;
+}
+.about_us_name {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    padding-top: 12px;
+    letter-spacing: 0.03rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.photo_1_name {
+    padding-right: 210px;
+}
+.photo_2_name {
+    padding-right: 195px;
+}
+
+.about_us_name_description {
+    display: flex;
+    letter-spacing: 0.017rem;
+    font-size: 1.15rem;
+    line-height: 20px;
+    width: 1020px;
+    margin-top: -3px; 
+ }
+ .about_us_name_description_adam{
+    width: 315px;
+    padding-right: 3px;
+ }
+.about_us_name_description_desmond {
+    letter-spacing: 0.038rem;
+    width: 315px;
+
+}
+.about_us_name_description_desmond span {
+    letter-spacing: 0.023rem;
+}
+.about_us_name_description_scolara{
+letter-spacing: 0.04rem;
+width: 315px;
+padding-left: 5px;
+}
+.about_us_name_description_scolara span {
+    letter-spacing: 0.023rem;
+}
+.about_us_follow_us {
+    display: flex;
+    justify-content: left;
+    padding-top: 14px;
+    width: 980px;
+   }
+.follow_us_icon {
+ margin-right: 162px;
+    }
+.follow_us_img {
+margin-right: 2px;
+}
+.follow_us_img:hover {
+cursor: pointer;
+border: 2px solid red;
+border-radius: 40px;
+}
