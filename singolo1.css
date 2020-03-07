@@ -116,7 +116,10 @@ margin: -25px;
 color: #666d89;
 border-bottom: 6px solid #ffffff;
 }
-
+.our_services p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .services_main_name {
 letter-spacing: -0.04rem;
 font-size: 32px;
