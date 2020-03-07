@@ -142,15 +142,19 @@ footer{
 .foot {
     display: flex;
     justify-content: space-between;
-   align-items: baseline;
-}
+    
+ }
 .copyright{
 color: #626984;
 font-size: 1.2rem;
 letter-spacing: -0.01em;
-margin-top: 29px;
+margin-top: 28px;
 }
 .footer_social {
 padding: 21px 2px;
-
+}
+.footer_soc_active:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 40px;
 }
