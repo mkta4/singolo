@@ -131,11 +131,16 @@ width: 300px;
     letter-spacing: 0.03rem;
     font-size: 1.8rem;
     font-weight: 900;
-}
-.photo_1_name {
+  }
+  .photo__ {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.photo__.name_1 {
     padding-right: 210px;
-}
-.photo_2_name {
+ }
+.photo__.name_2 {
     padding-right: 195px;
 }
 
