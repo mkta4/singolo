@@ -121,15 +121,22 @@ margin: -14px 0px 0 18px;
 }
 .contact_info__ {
     margin-bottom: 5px;
+    
+}
+.contact_info__ a{
+    text-decoration: none;
+    color: #f0d8d9;
+    margin-left: 10px;
 }
 .contact_info__.phone{
     letter-spacing: -0.06rem;
+    font-size: 1.34rem;
 }
 .contact_info__.mail{
     letter-spacing: -0.06rem;
 }
 .contact_info__ span {
-    margin-left: 10px;
+    margin-left: 11px;
 }
 
 /*Footer*/
