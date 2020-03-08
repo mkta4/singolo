@@ -229,6 +229,8 @@ height: 870px;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: -1px;
+        max-height: 620px;
+        overflow: hidden;
       }
     
     .box1{
@@ -332,18 +334,19 @@ height: 870px;
     .about_us_follow_us {
         display: flex;
         justify-content: left;
-        padding-top: 14px;
+        padding-top: 13px;
         width: 980px;
        }
     .follow_us_icon {
-     margin-right: 161px;
+     margin-right: 160px;
         }
     .follow_us_img {
-    margin-right: 2px;
+    border: 1px solid #f2f2f2;
+    border-radius: 40px;
     }
     .follow_us_img:hover {
     cursor: pointer;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 40px;
     }
 
@@ -494,19 +497,22 @@ body {
     .foot {
         display: flex;
         justify-content: space-between;
-        
-     }
+         }
     .copyright{
     color: #626984;
     font-size: 1.2rem;
     letter-spacing: -0.01em;
     margin-top: 28px;
-    }
+      }
     .footer_social {
-    padding: 21px 2px;
+    padding: 19px 0;
+    }
+    .footer_soc_active {
+        border: 1px solid #2d2f3b;
+        border-radius: 40px;
     }
     .footer_soc_active:hover {
         cursor: pointer;
-        border: 2px solid red;
+        border: 1px solid red;
         border-radius: 40px;
     }
